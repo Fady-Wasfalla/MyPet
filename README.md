@@ -14,7 +14,8 @@ To run the app locally:
 To run the app remotely via Docker:
 1-clone the repo. 
 2-then you will need to create a .env file, to write any sensitive data about your e-mail, password, database connection string or keys to you APIs.  
-3-build 2 docker images named "newserv"(server) and "newcli"(client) using the following docker command "docker image build -t <image name> <Path> 
+3-build 2 docker images named "newserv"(server) and "newcli"(client) using the following docker command "docker image build -t "image name" "Path" 
+
 (for the first image the path will be . and for the second image it will be ./client).  
 4-After that, type the following command in the terminal "docker-compose up" and you will be able to use the application on the web.
 
