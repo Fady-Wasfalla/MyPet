@@ -17,3 +17,6 @@ To run the app remotely via Docker:
 3-build 2 docker images named "newserv"(server) and "newcli"(client) using the following docker command "docker image build -t <image name> <Path> 
 (for the first image the path will be . and for the second image it will be ./client).  
 4-After that, type the following command in the terminal "docker-compose up" and you will be able to use the application on the web.
+
+
+You can find the deployed web application on : https://mypett.herokuapp.com/
